@@ -6,7 +6,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 })
 export class SlackService {
 
-  private webHook = 'https://hooks.slack.com/services/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';
+  private webHook = 'https://hooks.slack.com/services/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';
   private options = {
     headers: new HttpHeaders(
       {'Content-Type': 'application/x-www-form-urlencoded'}
