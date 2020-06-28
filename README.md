@@ -3,7 +3,11 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0-rc.0.
 
 ## URL
-www.dia-alpha.xyz
+www.dia-alpha.xyz is provided by namescheap.com
+<br> Deployed with Nelify
+
+## Deploy via GitHub
+Run `ng build --prod --base-href https://erussell607.github.io/dia-alpha/` followed by this command `ngh --dir dist/dia-alpha --message="github deployment" -no-silent`
 
 ## Development server
 

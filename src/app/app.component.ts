@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {SlackService} from './services/slack.service';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +10,15 @@ export class AppComponent implements OnInit {
   title = 'dia-alpha';
 
 
-  constructor() {
-
+  constructor(private slackService: SlackService) {
   }
 
+
   ngOnInit(): void {
+  }
+
+  throwError() {
+    this.slackService.postErrorOnSlack(new Error('Infinity Error'));
   }
 }
 
